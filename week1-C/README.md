@@ -33,4 +33,19 @@ A C program that prints a left, right, or double pyramid of hashes based on user
 - added mario(1) with updated code
 
 
+## Number Guessing Game
+
+A C program where the computer chooses a random number between 1 and 100, and the user tries to guess, with the computer giving hints based on whether the number is above or below the chosen number. 
+
+### Concepts practiced
+- rand() and srand() for random numbers
+- time(NULL) for seeding
+- do while loop
+- Counter variables
+
+### What I'd add next
+- Option for user to continue witht he game or not
+- counter for a round wise game
+- making a user interface later in the course
+
 
