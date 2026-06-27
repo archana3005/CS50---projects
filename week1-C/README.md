@@ -4,7 +4,7 @@
 - [Mario Pyramid](#mario-pyramid)
 - [Number Guessing Game](#number-guessing-game)
 - [Credit Card Validator](#credit-card-validator)
-- 
+- [Fraction calculator](#fraction-calculator)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Mario Pyramid
@@ -71,7 +71,7 @@ A C program to validate whether a credit card is real or not using Luhn's algori
 - integrate functions into it for a cleaner look
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-## Fraction calculator with Euclidean GCD
+## Fraction calculator
 
 A fraction calculator that performs various user-chosen operations such as +,-,*,/, and simplifies the fraction further using Euclidean GCD.
 
