@@ -1,8 +1,10 @@
 # Week 3 - Algorithm projects
 
 ## Projects
-- [Linear vs binary](#linear-vs-binary)
+- [Linear vs Binary](#linear-vs-binary)
 - [Sortrace](#sortrace)
+- [Recursive maze solver](#recursive-maze-solver)
+  
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Linear vs Binary
@@ -68,18 +70,52 @@ A program that implements a race between selection, bubble, and merge sort to fi
 - Array copying for fair comparison
   
 ### What I'd add next
-- Also include user target value so searching also involved
+- Also include the user target value, so searching is also involved
 - find the time taken along with steps
+
+### Commit log 
+- I have added quicksort to the sort race. You can access it using the quicks file
+- same process to compile it in cs50 dev { make quicks --> ./quicks}
+- UPDATED RESULTS AFTER ADDING QUICKSORT
+- Results for 1000 values
+- Selection = 499,500 |  O(n²) 
+- Bubble = 247,286 | O(n²) 
+- Merge = 8,707 | O(n log n) 
+- Quick = 10,418 | O(n log n) 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## Recurisve maze solver
 
+A program that solves a maze using pure recursion and backtracking — no data structures needed.
+### How to run 
+-  If you are using cs50.dev:
+  make sortrace --> ./sortrace
 
+### How it works
+1. Start at the position after S
+2. Try all four directions (up, down, left, right)
+3. Mark visited cells with *
+4. If dead end — backtrack and unmark cell
+5. Stop when E is reached
 
+### Concepts practiced
+- 2D arrays for maze representation
+- Pure recursion for pathfinding
+- Backtracking — undo moves that fail
+- Four-directional movement
+- Recursive return values (true/false)
+- Boundary checking
 
-
-
+### What I'd add next
+- User-defined maze input
+- steps
+- User's can also play a larger role in solving the maze
+- Animation showing the solving process
+- Multiple path comparison
+- BFS shortest path 
   
 ### Commit log
+- created recurive maze solver
 
 - Working substitution cipher
